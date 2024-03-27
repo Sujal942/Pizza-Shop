@@ -5,7 +5,7 @@ const CenterDisplay = () => {
   return (
     <>
       <div className="flex justify-center items-center w-full h-[100vh]">
-        <div className="p-4 bg-[#ffffffd0] rounded-3xl w-[800px] h-[500px] shadow-2xl flex items-center">
+        <div className="p-4 bg-[#ffffff96] rounded-3xl w-[800px] h-[500px] shadow-2xl flex items-center">
           <div className=" space-y-5">
             <h1 className="text-[70px] leading-[1] tracking-wider w-7 ">
               Amazing Pizza

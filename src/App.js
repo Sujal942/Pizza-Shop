@@ -1,15 +1,21 @@
 import React from "react";
 import "./App.css";
-import BackgrounLayer from "./components/landingPage/BackgrounLayer";
-import LandingPage from "./components/landingPage/LandingPage";
-import PageTwo from "./components/PageTwo";
+import LandingPage from "./Components/landingPage/LandingPage";
+// import AdminRegistrationPage from "./Components/admin/AdminRegistrationPage";
+// import UserRegister from "./Components/user/UserRegister";
+import AboutPage from "./Components/AboutPage";
+import ContactPage from "./Components/ContactPage";
+import Menu from "./Components/Menu";
 
 const App = () => {
   return (
     <>
-      <BackgrounLayer />
       <LandingPage />
-      <PageTwo />
+      {/* <AdminRegistrationPage /> */}
+      {/* <UserRegister /> */}
+      <Menu />
+      <AboutPage />
+      <ContactPage />
     </>
   );
 };
